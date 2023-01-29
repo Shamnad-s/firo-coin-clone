@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="firo.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="manifest" href="img/meta/site.webmanifest">
+   
+    
+    <title>firo1.org</title>
+</head>
+<main>
+    <header>
+
+        <div class="container">
+            <nav class="row" role='navigation'>
+                <a class="logo col" href="/index.html" aria-label="Firo Cryptocurrency"><img src="images/firo-logo.svg" alt="Firo Cryptocurrency logo"></a>
+                <ul class="main-menu col">
+                    <li class="nav-item"><a href="#">Get Firo</a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a class="sub-nav-item" href="/get-firo/download/">Download wallets</a></li>
+                            <li><a class="sub-nav-item" href="/get-firo/buy-firo/">Buy Firo</a></li>
+                            <li><a class="sub-nav-item" href="/guide/masternode-setup.html">Earn Firo</a></li>
+                            <li><a class="sub-nav-item" href="/guide/how-to-mine-firo.html">Mine</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">About</a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a class="sub-nav-item" href="/about/research/">Research</a></li>
+                            <li><a class="sub-nav-item" href="/about/team/">Team</a></li>
+                            <li><a class="sub-nav-item" href="/about/roadmap/">Roadmap</a></li>
+                            <li><a class="sub-nav-item" href="/about/faq/">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">Community</a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a class="sub-nav-item" href="/community/social/">Social</a></li>
+                            <li><a class="sub-nav-item" href="/community/merchants/">Merchants</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item link"><a href="/guide/">Guides</a>
+                    </li>
+                    <li class="nav-item link"><a href="/blog/">Blog</a></li>
+                    <li class="nav-item"><a href="#">Crowdfunding</a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a class="sub-nav-item" href="https://funding.firo.org/" target="_blank">Firo Crowdfunding System</a></li>
+                            <li><a class="sub-nav-item" href="https://opencollective.com/firo" target="_blank">Open Collective</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav role='navigation' class="mobile-menu row">
+                <a class="logo-mobile col" href="/index.html" aria-label="Firo Cryptocurrency"><img src="images/firo-logo.svg" alt="Firo Cryptocurrency logo"></a>
+                <input class="burger-check" id="mobile-burger" type="checkbox">
+                <label for="mobile-burger" class="hamburger hamburger--spring">
+                  <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                  </span>
+                </label>
+                <ul class="slide-nav">
+                     <li class="mob-item">
+                        <input class="burger-checkdropdown" id="list1" type="checkbox" tabindex="0">
+                        <label for="list1">Get Firo</label>
+                        <ul class="dropdown-content">
+                            <li><a href="/get-firo/download/">Download wallets</a></li>
+                            <li><a href="/get-firo/buy-firo/">Buy Firo</a></li>
+                            <li><a href="/guide/masternode-setup.html">Earn Firo</a></li>
+                            <li><a href="/guide/how-to-mine-firo.html">Mine</a></li>
+                        </ul>
+                     </li>
+                     <li class="mob-item">
+                        <input class="burger-checkdropdown" id="list2" type="checkbox" tabindex="0">
+                        <label for="list2">About</label>
+                        <ul class="dropdown-content">
+                            <li><a href="/about/research/">Research</a></li>
+                            <li><a href="/about/team/">Team</a></li>
+                            <li><a href="/about/roadmap/">Roadmap</a></li>
+                            <li><a href="/about/faq/">FAQ</a></li>
+                        </ul>
+                     </li>
+                     <li class="mob-item">
+                        <input class="burger-checkdropdown" id="list3" type="checkbox" tabindex="0">
+                        <label for="list3">Community</label>
+                        <ul class="dropdown-content">
+                            <li><a href="/community/social/">Social</a></li>
+                            <li><a href="/community/merchants/">Merchants</a></li>
+                        </ul>
+                     </li>
+                    <li class="mob-item"><a href="/guide/">Guides</a></li>
+                    <li class="mob-item"><a href="/blog/">Blog</a></li>
+                     <li class="mob-item">
+                        <input class="burger-checkdropdown" id="list4" type="checkbox" tabindex="0">
+                        <label for="list4">Crowdfunding</label>
+                        <ul class="dropdown-content">
+                            <li><a href="https://funding.firo.org/">Firo Crowdfunding System</a></li>
+                            <li><a href="https://opencollective.com/firo">Open Collective</a></li>
+                        </ul>
+                     </li>
+                </ul>
+             </nav>
+            
+    </div>
+</header>
+<section id="intro">
+    <div class="row">
+        <div class="intro-img col">
+            <img src="images/firo-ecosystem.svg"/>
+        </div>
+        <div class="intro-info col imgi">
+            <img src="images/img_firo-mobile-top2.svg"/>
+        </div>
+        <div class="intro-info col">
+            <h1>Privacy is consent</h1>
+            <p>Firo is a privacy preserving cryptocurrency and ecosystem.</p>
+            <a class="btn-primary btn-lg" href="#getfiro">Get Firo</a>
+            <a class="btn-secondary btn-lg p-4" href="/about/faq/">Learn More</a>
+        </div>
+        <div class="intro-info col imgi">
+            <img src="images/img_firo-mobile-bot2.svg"/>
+        </div>
+    </div>
+</section>
+<section id="intro-info" class="section">
+    <div class="container">
+     <div class="row blockchain">
+        <div class="col col-img">
+             <img src="images/privacy.svg" alt="Blockchain illustration"/>
+        </div>
+        <div class="col col-info">
+             <h3>Privacy</h3>
+             <p>Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy.</p>
+             <div class="row block-facts">
+                 <div class="col">
+                    <img src="images/icon_anonymous.svg" alt="" />
+                    <div>
+                         <h4>anonymity set</h4>
+                         <p>2<sup>16</sup></p>
+                     </div>
+                 </div>
+                 <div class="col">
+                     <img src="images/icon_setup.svg" alt="" />
+                     <div>
+                         <h4>trustless setup</h4>
+                         <p>yes</p>
+                     </div>
+                 </div>
+             </div>
+        </div>
+     </div>
+     <div class="row privacy">
+        <div class="col col-info">
+             <h3>Blockchain</h3>
+             <p>Firo uses a hybrid PoW and LLMQ Chainlocks system combining fair distribution of supply with protection against 51% attacks and quick finality of blocks and transactions.</p>
+             <div class="row block-facts">
+                 <div class="col">
+                     <img src="images/icon_coins.svg" alt="" />
+                     <div>
+                         <h4>total supply</h4>
+                         <p>21.4 mil</p>
+                     </div>
+                 </div>
+                 <div class="col">
+                     <img src="images/icon_axe.svg" />
+                     <div>
+                          <h4>proof of work</h4>
+                          <p>FiroPoW</p>
+                      </div>
+                 </div>
+                 <div class="col">
+                     <img src="images/icon_node.svg" alt="" />
+                     <div>
+                         <h4>master nodes</h4>
+                         <p>5000+</p>
+                     </div>
+                 </div>
+             </div>
+        </div>
+        <div class="col col-img">
+             <img src="images/blockchain.svg" alt="Blockchain illustration"/>
+        </div>
+     </div>
+     <div class="row blockchain">
+        <div class="col col-img">
+             <img src="images/privacy-infrastructure (1).svg" alt="Privacy Infrastructure illustration"/>
+        </div>
+        <div class="col col-info">
+             <h3>Privacy Infrastructure</h3>
+             <p>Firo's Elysium tokenization layer allows users to create their own privacy-enabled tokens with use-cases from private stablecoins or voting tokens and in the future offer privacy for bridged assets from other chains.</p>
+        </div>
+     </div>
+     <div class="row rnd">
+        <div class="col col-info">
+             <h3>Research and Development</h3>
+             <p>Firo stands out as one out of a handful of projects that contribute independent research to blockchain privacy and decentralization technologies  such as Sigma, Lelantus, Lelantus Spark and MTP. Our work has played a pivotal role in the space having influenced or been adopted in other projects.</p>
+             <div class="row block-facts">
+                 <div class="col">
+                    <img src="images/icon_sigma.svg" alt="" />
+                    <h4>Sigma</h4>
+                 </div>
+                 <div class="col">
+                     <img src="images/icon_lelantus.svg" alt="" />
+                     <h4>Lelantus</h4>
+                 </div>
+                 <div class="col">
+                     <img src="images/icon_dandelion.svg" alt="" />
+                     <h4>Dandelion</h4>
+                 </div>
+             </div>
+             <a class="btn-secondary" href="/about/research/">Learn More</a>
+        </div>
+        <div class="col col-img">
+             <img src="images/rnd.svg" alt="Blockchain illustration"/>
+        </div>
+     </div>
+     </div>
+ </section>
+ <section id="getfiro" class="section">
+    <div class="container">
+     <div class="row">
+        <div class="col">
+             <h2>get firo</h2>
+             <p>Push the frontiers of digital privacy. Join the Firo ecosystem today.</p>
+        </div>
+     </div>
+     <div class="row btns">
+        <a class="col" href="/get-firo/download/">
+             <img src="images/wallet.svg" alt="" />
+             <h3 style ="color: black;" >Get a wallet</h3>
+        </a>
+        <a class="col" href="/get-firo/buy-firo/">
+             <img src="images/buy-firo.svg" alt="" />
+             <h3 style ="color: black;" >Buy Firo</h3>
+        </a>
+        
+        <a class="col" href="/guide/masternode-setup.html">
+             <img src="images/earn-firo.svg" alt="" />
+             <h3 style ="color: black;" >Earn Firo</h3>
+        </a>
+        
+        <a class="col" href="/guide/how-to-mine-firo.html">
+             <img src="images/mine-firo.svg" alt="" />
+             <h3 style ="color: black;" >Start mining</h3>
+        </a>
+     </div>
+     </div>
+ </section>
+ <footer class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h4>resources</h4>
+                <ul>
+                    <li><a style ="color: black;" href="https://github.com/firoorg/firo">Github</a></li>
+                    <li><a style ="color: black;" href="https://sourceforge.net/projects/firoorg/">Sourceforge</a></li>
+                    <li><a style ="color: black;" href="/branding/">Branding</a></li>
+                    <li><a style ="color: black;" href="/2018/07/15/firo-vulnerability-bounty-program.html">Vulnerability Program</a></li>
+                    <li><a style ="color: black;" href="https://explorer.firo.org/">Explorer</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>website</h4>
+                <ul>
+                    <li><a style ="color: black;" href="/privacy-policy/">Privacy Policy</a></li>
+                    <li><a href="">Terms Of Service</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div>
+                    <h4>newsletter</h4>
+                    <p>If you want to subscribe to our newsletter, please submit the form.</p>
+                    <form class="newsletter-form">
+                      <fieldset>
+                        <input type="email" class="newsletter-email" placeholder="Email*">
+                        <button type="submit" class="newsletter-submit"><span>Subscribe</span></button>
+                      </fieldset>
+                    </form>
+                </div>
+                <div class="social">
+                    <h4>communication</h4>
+                    <ul>
+                        <li><a href="https://twitter.com/firoorg" target="_blank"><i class="bi bi-twitter"></i>
+                        <li><a href="https://www.facebook.com/firoorg/" target="_blank"><i class="bi bi-facebook"></i>
+                        <li><a href="https://www.youtube.com/c/firoorg" target="_blank"><i class="bi bi-youtube"></i>
+                        <li><a href="https://www.reddit.com/r/firoproject/" target="_blank"><i class="bi bi-reddit"></i>
+                        <li><a href="" target="_blank"><i class="bi bi-play-circle"></i>
+                        <li><a href="https://t.me/firoorg" target="_blank"><i class="bi bi-telegram"></i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row bottom">
+            <div class="col">
+                <div href="#" class="dropdown language-change">
+                      <input class="burger-checkdropdown" id="langdrop" type="checkbox" tabindex="0">
+                      <label for="langdrop">English
+                     <div class="arrow-down"></div></label>
+                      <div class="dropdown-content text-center">
+                        
+                          
+                        
+                          
+                            
+                              <a href="/zh-cn/index.html" >简体中文</a>
+                            
+                          
+                        
+                          
+                            
+                              <a href="/id/index.html" >Bahasa Indonesia</a>
+                            
+                          
+                        
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</main>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="myscripts.js"></script>
+</body>
+</html>
